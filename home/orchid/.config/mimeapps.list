@@ -1,0 +1,7 @@
+[Added Associations]
+application/x-java=jetbrains-idea.desktop;
+application/x-java-archive=org.kde.ark.desktop;
+
+[Default Applications]
+application/x-java=jetbrains-idea.desktop;
+application/x-java-archive=org.kde.ark.desktop;
