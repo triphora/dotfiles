@@ -1,6 +1,6 @@
 [user]
-	name = Emma Cypress Pointer-Null
-	email = emmaffle@modrinth.com
+	name = Emma Triphora
+	email = emma@modrinth.com
 	signingkey = 665FFBF8458769F4
 
 [credential "https://github.com"]
@@ -47,3 +47,5 @@
 	added = yellow reverse
 	changed = green
 	untracked = cyan
+[blame]
+	ignoreRevsFile = .git-blame-ignore-revs

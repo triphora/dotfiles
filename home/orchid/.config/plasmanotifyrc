@@ -1,5 +1,12 @@
 [Applications][firefox]
 Seen=true
 
+[Applications][net.lutris.Lutris]
+Seen=true
+
+[DoNotDisturb]
+NotificationSoundsMuted=true
+Until=2023,2,28,6,0,0.424
+
 [Notifications]
 PopupPosition=BottomCenter

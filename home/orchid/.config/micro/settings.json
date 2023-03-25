@@ -5,6 +5,5 @@
     "softwrap": true,
     "sucmd": "doas",
     "tabsize": 2,
-    "tabstospaces": true,
     "wordwrap": true
 }

@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+export EDITOR=micro
 export LESSHISTFILE=""
 export XDG_CACHE_HOME=$HOME/.cache
 export XDG_CONFIG_HOME=$HOME/.config
@@ -16,7 +17,7 @@ export PNPM_HOME=$XDG_DATA_HOME/pnpm
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
 export GPG_TTY=$(tty)
 
-export PATH=$PATH:$CARGO_HOME/bin:$PNPM_HOME
+export PATH=$PATH:$CARGO_HOME/bin:$PNPM_HOME:/home/orchid/.local/bin
 
 # Modrinth
 export APIURL="https://api.modrinth.com/v2"
@@ -25,6 +26,7 @@ alias mpatch='authr -X PATCH --data-raw'
 alias r='packerator'
 export NUXT_TELEMETRY_DISABLED=1
 export RATE_LIMIT_IGNORE_KEY=foobar
+export NODE_OPTIONS=--openssl-legacy-provider
 
 # General
 alias ls='ls -shal --color=auto'
@@ -44,6 +46,7 @@ alias cam='git commit -am'
 alias ri='git rebase -i'
 alias po='git push origin'
 alias pom='git push origin && git push mirror'
+alias pm='git push mirror'
 
 # Packwiz
 alias z='packwiz'

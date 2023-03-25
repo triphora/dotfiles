@@ -136,7 +136,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=155,89,182
 
 [General]
-ColorSchemeHash=bcce7c1c6181c5e14e633cd8301e7a9036b67ac6
+BrowserApplication=firefox.desktop
+ColorSchemeHash=7e27a66e6ec46638e4fb9d9f6caa72c4f044c338
 XftHintStyle=hintslight
 XftSubPixel=rgb
 fixed=JetBrains Mono,12,-1,5,81,0,0,0,0,0,ExtraBold
@@ -147,6 +148,7 @@ toolBarFont=Atkinson Hyperlegible,12,-1,5,50,0,0,0,0,0
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
+ShowDeleteCommand=false
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -167,6 +169,9 @@ Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=102
 View Style=DetailTree
+
+[PreviewSettings]
+MaximumRemoteSize=0
 
 [WM]
 activeBackground=49,54,59
